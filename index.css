@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+img{
+	border:none;
+}
+html{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+body{
+	width:100%;
+	height:100%;
+	background-image: url(img/puke.jpg);
+	background-size: cover;
+}
+.zhuozi{
+	width:690px;
+	height:600px;
+	margin:40px auto;
+	position: relative;
+	overflow: hidden;
+}
+.pai{
+	width:90px;
+	height:130px;
+	background-size: cover;
+    position: absolute;
+    border-radius: 3px;
+    top:0;
+    left:80%;
+    opacity: 0;
+}
+.move-right{
+	width:150px;
+	height:30px;
+	position: absolute;
+	left:300px;
+	bottom:100px;
+	background: yellow;
+	border-radius: 5px;
+	border:2px solid white;
+	line-height: 30px;
+	text-align: center;
+	cursor:pointer;
+}
+.move-left{
+	width:150px;
+	height:30px;
+	position: absolute;
+	left:300px;
+	bottom:50px;
+	background: green;
+	border-radius: 5px;
+	border:2px solid white;
+	line-height: 30px;
+	text-align: center;
+	cursor:pointer;
+}
